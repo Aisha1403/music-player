@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="Homepage.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    </head>
+
+    <body>
+        
+        <input type="radio" name="theme" id="theme-1" checked class="radio1">
+        <label for="theme-1" class="label1 pointer">dark</label>                        <!--theme for the page-->
+        <input type="radio" name="theme" id="theme-2" class="radio2">
+        <label for="theme-2" class="label2 pointer">light</label>
+
+        <div class="container">
+            <header>
+                <div class="item1">                                                 <!--logo-->
+                    <div class="logo">
+                        <div><i class="fas fa-headphones"></i></div>
+                    </div>
+                    <div class="logoText"><div>Ninja Studio</div></div>
+                </div>
+                <div class="item2">                                                 <!--browse-->
+                    <span class="browse_text">Browse</span>
+                    <div class="browse">
+                        <a href="#section2">
+                            <div class="id_content">
+                                Latest Releases
+                            </div>
+                        </a>
+                        <a href="#section3">
+                            <div class="id_content">
+                                Popular Artists
+                            </div>
+                        </a>
+                        <a href="#section4">
+                            <div class="id_content">
+                                Stations
+                            </div>
+                        </a>
+                        <a href="#section6">
+                            <div class="id_content">
+                                Latest English
+                            </div>
+                        </a>
+                        <a href="#section7">
+                            <div class="id_content">
+                                Latest Hindi
+                            </div>
+                        </a>
+                                                    
+                    </div>
+                </div>
+                <div class="item3">                                                   <!--search bar-->
+                    <div class="search">
+                        <div class="display_inline">
+                            <form class="display_inline">
+                                <label for="Search"><i class="fas fa-search"></i></label>
+                                <input type="text" placeholder="Search" id="Search">
+                            </form>
+                            <i class="fas fa-microphone" style="margin-left: 5px;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="item4">                                                     <!--notification-icon-->
+                        <i class="fas fa-bell pointer"></i>
+                </div>
+                
+                <div class="hamburger_menu">                                         <!--hamburger-icon-->
+                    <div class="menu_container">
+                        <div class="hamburger_icon pointer">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="">
+                            <div class="menu_content">
+                                Browse
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu_content">
+                                Notifications
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemid">                                           <!--user id-->
+                    <div class="id_img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVNmy0m7-SBGTOKqTt5YKG1_tvcoswTSmn4DLEdePhHNyYHgcAAg">
+                    </div>
+                    <div class="account">
+                        <a href="">
+                            <div class="id_content">
+                                My Profile
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="id_content">
+                                Account Settings
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="id_content">
+                                Connect to facebook
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="id_content">
+                                Log out
+                            </div>
+                        </a>
+                        
+                            
+                    </div>
+                </div>
+            </header>
+
+            <div class="row">                                        <!--flex box: contains main annd aside sections-->
+                <div class="main">                                      <!--main-->
+                    <div id="section1">                                 
+                        <div>
+                            <div class="bg"></div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKTouL7VH3nuUIchq294SUvjrZG_78csbSYlRzt4GwW6RC_rJq">
+                            <div class="section1_text">Weekly Hits</div>
+                        </div>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvYoCGzjLcmJir0EKOA8XxXX3hQ0eGBnRgMqXGYGSekSXBFU3S">
+                            <div class="section1_text">Latest Hindi</div>
+                        </div>
+                                
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz0OOicYpMytle6KDTK4BIEPQ1g4HvRynmrWh2V0CUHaZzrl0Jnw">
+                            <div class="section1_text">Latest English</div>        
+                        </div> 
+                    </div>
+
+
+                    <div id="section2" class="section_margin">
+                            <div><h2>Latest Releases</h2></div>
+                            <div id="latest_releases">
+                                <div class="div1">
+                                    <div class="section2_img">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTraq5_r_rDIIrsSswkVTn4K6ZmncYeUdpRdSzz1aRrnW3CZmyT">
+                                    </div>
+                                    <div class="section2_text">
+                                        <div class="song_name">A</div>
+                                        <div class="date">AUG 1 2019</div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <label for="id1"><i class="fas fa-ellipsis-h"></i></label>
+                                        <input type="checkbox" id="id1" class="check">
+                                        <div class="content-box">
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-play"></i></div>
+                                                    <div class="content_text">Play</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-plus"></i></div>
+                                                    <div class="content_text">Add to queue</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="far fa-heart"></i></div>
+                                                    <div class="content_text">Add to favourites</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-info-circle"></i></div>
+                                                    <div class="content_text">Get info</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div1">
+                                    <div class="section2_img">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTraq5_r_rDIIrsSswkVTn4K6ZmncYeUdpRdSzz1aRrnW3CZmyT">
+                                    </div>
+                                    <div class="section2_text">
+                                        <div class="song_name">A</div>
+                                        <div class="date">AUG 1 2019</div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <label for="id2"><i class="fas fa-ellipsis-h"></i></label>
+                                        <input type="checkbox" id="id2" class="check">
+                                        <div class="content-box">
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-play"></i></div>
+                                                    <div class="content_text">Play</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-plus"></i></div>
+                                                    <div class="content_text">Add to queue</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="far fa-heart"></i></div>
+                                                    <div class="content_text">Add to favourites</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-info-circle"></i></div>
+                                                    <div class="content_text">Get info</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div1">
+                                    <div class="section2_img">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTraq5_r_rDIIrsSswkVTn4K6ZmncYeUdpRdSzz1aRrnW3CZmyT">
+                                    </div>
+                                    <div class="section2_text">
+                                        <div class="song_name">B</div>
+                                        <div class="date">AUG 1 2019</div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <label for="id3"><i class="fas fa-ellipsis-h"></i></label>
+                                        <input type="checkbox" id="id3" class="check">
+                                        <div class="content-box">
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-play"></i></div>
+                                                    <div class="content_text">Play</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-plus"></i></div>
+                                                    <div class="content_text">Add to queue</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="far fa-heart"></i></div>
+                                                    <div class="content_text">Add to favourites</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-info-circle"></i></div>
+                                                    <div class="content_text">Get info</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div1">
+                                    <div class="section2_img">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTraq5_r_rDIIrsSswkVTn4K6ZmncYeUdpRdSzz1aRrnW3CZmyT">
+                                    </div>
+                                    <div  class="section2_text">
+                                        <div class="song_name">C</div>
+                                        <div class="date">AUG 1 2019</div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <label for="id4"><i class="fas fa-ellipsis-h"></i></label>
+                                        <input type="checkbox" id="id4" class="check">
+                                        <div class="content-box">
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-play"></i></div>
+                                                    <div class="content_text">Play</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-plus"></i></div>
+                                                    <div class="content_text">Add to queue</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="far fa-heart"></i></div>
+                                                    <div class="content_text">Add to favourites</div>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="content">
+                                                    <div class="content_icon"><i class="fas fa-info-circle"></i></div>
+                                                    <div class="content_text">Get info</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="section3" class="section_margin">
+                            <h2>Popular Artists</h2>
+                            <div id="popular_artists">
+                                <div>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbK0Zq99yL025zB8qPZEXd6RfCnACeS0gt1zG8_LBeRuYa1nIi">
+                                    <h3>Coldplay</h3>
+                                </div>
+                                <div>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnMKk7EiKr-ExeyTj0ZRHO4cpkl4hiSh2RtMvBlVxCmyh_ppTA">
+                                    <h3>Arijit Singh</h3>
+                                </div>
+                                <div>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3IYbzKkMgGx9Aj4vkE8Iirbu3hEVlmzCBYknvB4rqHXrqWREa">
+                                    <h3>Selena Gomez</h3>
+                                </div>
+                                <div>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqv3TjhdenPZZJgL_YarZ8ahRAVy9oeOx0iQTG1nlW1U6ajvl_DQ">
+                                    <h3>Bruno Mars</h3>
+                                </div>
+                                <div>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_P1kEMKF5WCBBt5HCQABRv056U4zxDw-E9c87X2cvf_ugOAMv">
+                                    <h3>Palak Muchhal</h3>
+                                </div>
+                                <div>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR5dlitot6f11JFai37kTI07gxyKU7lntMGIKwAEOLmPTVaOha">
+                                    <h3>Armaan Malik</h3>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                    
+                        <div id="section4" class="section_margin">
+                            <div class="one">
+                                <div class="two">
+                                    <div class="three"><i class="fas fa-headphones-alt"></i></div>
+                                </div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMqj6F5lIVS0OKqEQMKaDUWGjin29BzCdnHOSitRM9UH_qbr5dw">
+                                <div class="section4_text">Love</div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMqj6F5lIVS0OKqEQMKaDUWGjin29BzCdnHOSitRM9UH_qbr5dw">
+                                <div class="section4_text">Retro</div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMqj6F5lIVS0OKqEQMKaDUWGjin29BzCdnHOSitRM9UH_qbr5dw">
+                                <div class="section4_text">Chill</div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMqj6F5lIVS0OKqEQMKaDUWGjin29BzCdnHOSitRM9UH_qbr5dw">
+                                <div class="section4_text">Workout</div>
+                            </div>
+                            <div class="stations">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMqj6F5lIVS0OKqEQMKaDUWGjin29BzCdnHOSitRM9UH_qbr5dw">
+                                <div class="section4_text">Pop</div>
+                            </div>
+                        </div>
+                        
+                        <div id="section5">
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkuq1mz0DycTw3fKO1S3u8Fd-rrHAtzGerwXmYUOleQ7rbgXM0cw">
+                                <div class="section5_text">Party</div>        
+                            </div>
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGcW3UoK_KGviz0dx6pY4bVOgqSombf0yLV728aDh2ngIH3bsr">
+                                <div class="section5_text">Electronic</div>        
+                            </div>
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgaSkU1FAFO6VGMX349wqwfXUCCwYEybzwWQK9BV0cuY2-33s_">
+                                <div class="section5_text">Road Trip</div>        
+                            </div>                   	
+                        </div> 
+
+                        <div id="section6" class="section_margin">
+                            <h2>Latest English</h2>
+                            <div class="latest">
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                                <div class="song_name">A</div>
+                                <div class="date">AUG 1 2019</div>
+                            </div>
+                                
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                                <div class="song_name">B</div>
+                                <div class="date">AUG 1 2019</div>
+                            </div>
+                                
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                                <div class="song_name">C</div>
+                                <div class="date">AUG 1 2019</div>
+                                    
+                            </div>
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                                <div class="song_name">D</div>
+                                <div class="date">AUG 1 2019</div>
+                            </div>
+                                
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                                <div class="song_name">E</div>
+                                <div class="date">AUG 1 2019</div>
+                                    
+                            </div>
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">	
+                                <div class="song_name">F</div>
+                                <div class="date">AUG 1 2019</div>				
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="section7" class="section_margin">
+                        <h2>Latest Hindi</h2>
+                        <div class="latest">
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                                <div class="song_name">A</div>
+                                <div class="date">AUG 1 2019</div>
+                            </div>
+                            
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                                <div class="song_name">B</div>
+                                <div class="date">AUG 1 2019</div>
+                            </div>
+                            
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                                <div class="song_name">C</div>
+                                <div class="date">AUG 1 2019</div>
+                                
+                            </div>
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                                <div class="song_name">D</div>
+                                <div class="date">AUG 1 2019</div>
+                            </div>
+                            
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                                <div class="song_name">E</div>
+                                <div class="date">AUG 1 2019</div>
+                                
+                            </div>
+                            <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">	
+                                <div class="song_name">F</div>
+                                <div class="date">AUG 1 2019</div>				
+                            </div>
+                        </div><br>
+                            
+                    </div>    
+                </div>
+
+
+
+
+                <div class="aside">
+                    
+                    <div class="queue">
+                        <h1>Queue</h1>
+
+                        <div class="queue_dropdown">
+                            <label for="queue_id" class="pointer">queue <span class="down_icon"><i class="fas fa-chevron-circle-down"></i></span></label>
+                            <input type="checkbox" id="queue_id" class="check">
+                            <div class="queue-content-box">
+                                <a href="#">
+                                    <div class="content">
+                                        Playlists
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="content">
+                                        Favourite Songs
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="queue_list">
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav1">
+                                <input type="checkbox" id="fav1" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav2">
+                                <input type="checkbox" id="fav2" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav3">
+                                <input type="checkbox" id="fav3" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+        
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav4">
+                                <input type="checkbox" id="fav4" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav5">
+                                <input type="checkbox" id="fav5" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+            
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav6">
+                                <input type="checkbox" id="fav6" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                            
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav7">
+                                <input type="checkbox" id="fav7" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav8">
+                                <input type="checkbox" id="fav8" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>            
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav9">
+                                <input type="checkbox" id="fav9" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                    
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav10">
+                                <input type="checkbox" id="fav10" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>                        
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav11">
+                                <input type="checkbox" id="fav11" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                        
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav12">
+                                <input type="checkbox" id="fav12" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav13">
+                                <input type="checkbox" id="fav13" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                            
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav14">
+                                <input type="checkbox" id="fav14" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav15">
+                                <input type="checkbox" id="fav15" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>  
+                        
+                    <div class="song_list">
+                            <div class="list">01</div>
+                            <div class="aside_img">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2gvL4Lc1dJtmkHtWckhqdjtcYPj4g583WJIBzUgvSBEuY2pBog">
+                            </div>
+                            <div class="aside_text">
+                                <div class="aside_song-name">A</div>
+                                <div class="aside_singer">AUG 1 2019</div>
+                            </div>
+                            <div>
+                                <label for="fav16">
+                                    <input type="checkbox" id="fav16" class="check">
+                                    <i class="far fa-heart aside_favourite"></i>
+                                </label>                          
+                            </div>
+                        </div>
+
+                    <div class="song_list">
+                        <div class="list">01</div>
+                        <div class="aside_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJErYH-SGaxRfwZzU0UxfMKT6O42b0J4qswoDIxuZ9Y2SXG8S0">
+                        </div>
+                        <div class="aside_text">
+                            <div class="aside_song-name">A</div>
+                            <div class="aside_singer">AUG 1 2019</div>
+                        </div>
+                        <div>
+                            <label for="fav17">
+                                <input type="checkbox" id="fav17" class="check">
+                                <i class="far fa-heart aside_favourite"></i>
+                            </label>                          
+                        </div>
+                    </div>                               
+                </div> 
+                    
+                   
+            </div>
+                
+            </div>
+
+            <div class="playbox">                                            <!--bottom music player-->
+                <div class="playbox1">
+                    <div class="playbox_img display_inline">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdsg8TBz5COKOPNkc5_dm9CUqJsd5p6jqqvlF4QRlifpdDyTap">
+                </div>
+                    <div class="playbox_text display_inline">
+                        <div class="playbox_song-name">A</div>
+                        <div class="playbox_singer">AUG 1 2019</div>
+                    </div>
+                    <div>
+                        <label for="fav18">
+                            <input type="checkbox" id="fav18" class="check">
+                            <i class="far fa-heart playbox_favourite"></i>
+                        </label>                          
+                    </div>
+                </div>
+                <div class="playbox2">
+                    <div class="play_buttons">
+                        <i class="fas fa-random"></i>
+                        <i class="fas fa-step-backward"></i>
+                        <i class="far fa-pause-circle"></i>
+                        <i class="fas fa-step-forward"></i>
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <div class="slider_container">
+                        <span>1.23</span>
+                        <input type="range" min="0" max="4.13" step="0.1" class="slider">
+                        <span>4.13</span>
+                    </div>
+                </div>
+                <div class="playbox3">
+                    <div class="play_buttons">
+                        <i class="fas fa-stream"></i>
+                        <i class="fas fa-download"></i>
+                        <i class="fas fa-volume-down"></i>
+                        <i class="fas fa-expand"></i>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
